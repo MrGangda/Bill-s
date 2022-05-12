@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: url(/fonts/Neue.ttf);
+}
+
+
+
 body {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Caveat', cursive;
@@ -103,6 +110,19 @@ img {
     white-space: nowrap;
 }
 
+.btn_preview_mobile {
+    align-self: center;
+}
+
+.link_btn_preview_mobile {
+    background: #FF007A;
+    border-radius: 177px;
+    padding: 24px 40px;
+    text-decoration: none;
+    color: #FAFAFA;
+    display: none;
+}
+
 h1 span{
     font-family: 'Bebas Neue';
     font-style: normal;
@@ -147,4 +167,57 @@ h1 span{
     background-color: #FAFAFA;
 }
 
+.section-2_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
 
+.section-2_sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2_header_title {
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 144px;
+}
+
+.section-2_img_logo {
+    margin-top: 50px;
+    min-width: 250px;
+}
+
+.pink_word {
+    color: #FF007A;
+}
+
+.header-year {
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 144px;
+    white-space: normal;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #191718;
+}
+
+.header_description {
+    max-width: 736px;
+}
+
+.description {
+    margin-top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
