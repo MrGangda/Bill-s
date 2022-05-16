@@ -1,12 +1,15 @@
 @font-face {
     font-family: 'Bebas Neue Cyrillic';
-    src: url(/fonts/Neue.ttf);
+    src: url(../fonts/Bebas\ Neue\ Cyrillic\ Regular.ttf);
+       
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
-
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-family: 'Caveat', cursive;
     font-family: 'Inter', sans-serif;
     color: #FAFAFA;
@@ -19,7 +22,7 @@ img {
 }
 
 .wrapper {
-    max-width: 1296px;
+    max-width: 1330px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -39,16 +42,18 @@ img {
     list-style: none;
     margin: 0;
     padding: 16px 0;
+    flex-wrap: wrap;
 }
 
-.header-items .item:not(:last-child) {
-    margin-right: 24px;
+.header-items .item:not(:first-child) {
+    margin-left: 24px;
 }
 
 
-.header-items .item:first-child {
+.item:first-child {
     margin-right: auto;
 }
+
 
 .header-img {
     display: block;
@@ -188,6 +193,7 @@ h1 span{
 
 .section-2_img_logo {
     margin-top: 50px;
+    margin-right: 50px;
     min-width: 250px;
 }
 
@@ -200,7 +206,6 @@ h1 span{
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
-    line-height: 144px;
     white-space: normal;
     /* identical to box height */
 
@@ -221,3 +226,5 @@ h1 span{
     font-size: 24px;
     line-height: 32px;
 }
+
+

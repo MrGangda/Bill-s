@@ -23,12 +23,14 @@
 
 
 @media screen and (max-width: 1280px) {
+
+    /* header stle */
     .header-items .item a {
         font-size: 16px;
     }
 
 
-    /* section styles */
+    /* section 1 styles */
 
 
     h1 span{
@@ -44,6 +46,10 @@
         top: 114px;
         left: 377px;
     }
+
+    /* section 2 style */
+
+    
 }
 
 
@@ -53,6 +59,13 @@
     .bottles_preview {
         max-width: 250px;
         margin-bottom: -40px;
+    }
+
+    /* section 2 style */
+
+    .section-2_header_title,
+    .header-year {
+        font-size: 120px;
     }
 }
 
@@ -108,6 +121,13 @@
         top: 84px;
         left: 255px;
         margin: 0;
+    }
+
+    /* section 2 style */
+
+    .section-2_header_title,
+    .header-year {
+        font-size: 112px;
     }
 }
 
@@ -193,8 +213,26 @@
         margin-top: 120px;
     }
 
-}
+    .section-2_sub-header {
+        flex-direction: column-reverse;
+    }
 
+    .section-2_img_logo {
+        margin-right: 0;
+    }
+
+     .section-2_header_title,
+     .header-year {
+         text-align: center;
+         font-size: 100px;
+     }
+
+     .description {
+        text-align: center;
+        font-size: 22px;
+        line-height: 32px;
+     }
+}
 
 
 
@@ -225,13 +263,41 @@
         font-size: 3em;
     }
 
+     /* section 2 style */
+
+
 }
 
 
 @media screen and (max-width: 450px) {
     .preview_box-1 h1 span {
-        font-size: 2.5em;
+        font-size: 2.4em;
     }
+
+    .bottles_preview {
+        max-width: 200px;
+    }
+
+    /* section 2 style */
+
+    .link_btn_preview_mobile {
+        margin-top: -95px;
+    }
+
+    .section-2_img_logo {
+        min-width: 180px;
+        max-width: 200px;
+    }
+
+    .section-2_header_title,
+    .header-year {
+        font-size: 56px;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 22px;
+     }
 }
 
 
@@ -262,4 +328,15 @@
     .preview-box-2 {
         margin-bottom: -17px;
     }
+
+    /* Section 2 style */
+
+    .link_btn_preview_mobile {
+        padding: 17px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 22px;
+     }
 }
