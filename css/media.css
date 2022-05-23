@@ -130,6 +130,10 @@
     #four .card__left {
         padding: 60px 40px;
     }
+
+    .card_img{
+        max-width: 280px;
+    }
 }
 
 
@@ -258,6 +262,10 @@
 
      /* section product */ 
 
+     .section-product {
+         margin-bottom: 0;
+     }
+
      .product__title h2 {
         font-size: 100px;
         text-align: center;
@@ -273,14 +281,51 @@
         flex-direction: column-reverse;
     }
 
-    .card__left,
-    .card__right {
-        width: 100% !important;
-        border-radius: 80px !important;
+    #one .card__left, 
+    #one .card__right, 
+    #two .card__left, 
+    #two .card__right, 
+    #three .card__left, 
+    #three .card__right, 
+    #four .card__left, 
+    #four .card__right {
+        width: 100%;
+        border-radius: 80px;
     }
 
-    #one .card__left {
-        margin-bottom: -100px;
+    #one .card__left,
+    #two .card__right,
+    #three .card__left,
+    #four .card__right {
+        margin-bottom: -140px;
+        padding: 30px 15px 160px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .product__number {
+        font-size: 18px;
+    }
+
+    .product__name {
+        font-size: 42px;
+    }
+
+    .product__discr {
+        font-size: 12px;
+    }
+
+    .card_img {
+        max-width: 180px;
+    }
+    
+    #one .card__right,
+    #three .card__right,
+    #two .card__left,
+    #four .card__left {
+        padding: 45px 30px;
     }
 }
 
@@ -354,6 +399,21 @@
      .product__title h2 {
         font-size: 56px;
     }
+    
+    .section-product {
+        margin-top: 70px;
+    }
+
+    #one .card__left, 
+    #one .card__right, 
+    #two .card__left, 
+    #two .card__right, 
+    #three .card__left, 
+    #three .card__right, 
+    #four .card__left, 
+    #four .card__right {
+        border-radius: 50px;
+    }
 }
 
 
@@ -397,17 +457,5 @@
      }
 
      /* product style */
-
-     .product_number {
-        font-size: 18px;
-     }
-
-     .product__name {
-        font-size: 42px;
-    }
-
-    .product__discr {
-        font-size: 12px;
-    }
 
 }
