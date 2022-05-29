@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/main-style.css" rel="stylesheets">
     <link rel="stylesheet" href="./css/normalize.css" rel="stylesheets">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Inter&display=swap" rel="stylesheet">
@@ -199,6 +200,8 @@
                 <!-- section product end -->
 
 
+                <!-- section benefits start -->
+
                 <section class="benefits">
                     <div class="wrapper">
                         <div class="benefits__block">
@@ -246,7 +249,53 @@
                         </div>
                     </div>
                 </section>
+
+                <!-- section benefits end -->
+
+                <!-- section view start -->
+
+                <section class="view">
+                    <div class="wrapper">
+                        <div class="view__block">
+                            <div class="title__view title">
+                                Обзоры 
+                                <br>
+                                на линейки 
+                            </div>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/img_hover_1.svg" alt="" class="img__hover">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_t8pXMWJB_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oGvUJYJg3jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ezSNIIxyGgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lV9WvA6iV9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- section view end -->
     </main>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./swiper-bundle.min.js"></script>
 </body>
 </html>
