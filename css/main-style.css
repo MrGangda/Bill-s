@@ -545,17 +545,17 @@ h1 span{
 
 }
 
-.title {
+.title__view {
     font-family: 'Bebas Neue Cyrillic';
     font-style: normal;
     font-weight: 400;
     font-size: 144px;
-    line-height: 144px;
     /* identical to box height */
 
     text-transform: uppercase;
 
     color: #FAFAFA;
+    margin-left: 35px;
 }
 
 .view__line {
@@ -578,6 +578,7 @@ iframe {
 .swiper {
     max-width: 1390px;
     margin: 0 auto;
+    padding: 0 40px !important;
   }
 .swiper_img {
     position: absolute;
@@ -589,7 +590,7 @@ iframe {
     transition: all .5s;
 }
 
-.img_hover_1 {
+.img_hover {
     display: block;
     width: 100%;
     height: auto;
