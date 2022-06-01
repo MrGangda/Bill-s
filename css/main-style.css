@@ -542,7 +542,7 @@ h1 span{
 }
 
 .view__block {
-    display: none;
+
 }
 
 .title {
@@ -576,16 +576,27 @@ iframe {
 }
 
 .swiper {
-    max-width: 900px;
+    max-width: 1390px;
     margin: 0 auto;
   }
-.img__hover {
-    display: block;
+.swiper_img {
     position: absolute;
     top: 0;
     left: 0;
+    display: block;
     width: 100%;
     height: auto;
+    transition: all .5s;
+}
+
+.img_hover_1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.swiper_img:hover {
+    opacity: 0;
 }
 
 .img__hover:hover {
