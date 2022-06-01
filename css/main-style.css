@@ -575,9 +575,10 @@ iframe {
     height: 487px;
 }
 
-.swiper {
+.swiperOne {
     max-width: 1390px;
     margin: 0 auto;
+    overflow: hidden;
     padding: 0 40px !important;
   }
 .swiper_img {
@@ -612,4 +613,44 @@ iframe {
     height: 487px;
 }
 
+
+.reviews {
+    background-color: #161415;
+    padding-top: 220px;
+}
+
+
+
+.swiperTwo {
+
+    max-width: 1390px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 40px !important;
+}
+
+.swiper__top {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+}
+
+.swiper__buttons {
+    width: 100%;
+    display: flex;
+}
+
+.swiper-wrapper {
+    margin-top: 20px;
+}
+
+
+
+.swiper__buttons .swiper-button-prev,
+.swiper__buttons .swiper-button-next {
+    position: static;
+    /* margin-bottom: 10px; */
+}
   
