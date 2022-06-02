@@ -7,6 +7,13 @@
 
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 h2 {
     margin: 0;
     padding: 0;
@@ -69,7 +76,6 @@ img {
 
 .header-items .item a{
     text-decoration: none;
-    color: #fff;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -79,9 +85,12 @@ img {
     white-space:nowrap;
 
     font-feature-settings: 'pnum' on, 'lnum' on;
-
+    transition: all .34s ease-in-out;
 }
 
+.header-items .item a:hover {
+    color: #FF007A;
+}
 
 /* header end */
 
@@ -109,6 +118,7 @@ img {
     position: absolute;
     top: 137px;
     left: 453px;
+    color: #FAFAFA;
 }
 
 .link_btn_preview {
@@ -622,12 +632,12 @@ iframe {
 
 
 .swiperTwo {
-
+    position: relative;
     max-width: 1390px;
-    height: 200px;
+    height: auto;
     margin: 0 auto;
-    overflow: hidden;
-    padding: 0 40px !important;
+    overflow-x: hidden;
+    padding: 40px 40px !important;
 }
 
 .swiper__top {
@@ -646,11 +656,78 @@ iframe {
     margin-top: 20px;
 }
 
-
-
-.swiper__buttons .swiper-button-prev,
-.swiper__buttons .swiper-button-next {
-    position: static;
-    /* margin-bottom: 10px; */
+.swiper-pagination {
+    font-size: 32px;
+    font-family: 'Caveat'
 }
-  
+
+.swiperTwo .swiper-button-prev,
+.swiperTwo .swiper-button-next {
+    position: static;
+    width: auto;
+    margin: 0;
+}
+
+.count_swiper {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    right: 0;
+    max-width: 200px;
+    width: 185px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-pagination-fraction {
+    position: static !important;
+    width: auto !important;
+}
+
+
+
+.swiperTwo .swiper-button-prev::after,
+.swiperTwo .swiper-button-next::after {
+    display: none;
+}
+
+.reviews__box {
+    position: relative;
+    padding-left: 150px;
+}
+
+.review__qoute {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.reviews__name {
+    margin-bottom: 20px;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.review__text {
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.reviews__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews__info a {
+    transition: all .34s ease-in-out;
+}
+
+.reviews__info a:hover {
+    color: #FF007A;
+}

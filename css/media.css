@@ -159,6 +159,7 @@
     .title__view {
         font-size: 100px;
         text-align: center;
+        margin-left: 0;
     }
 
     .view {
