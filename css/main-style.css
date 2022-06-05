@@ -793,6 +793,7 @@ iframe {
 .footer {
     padding-top: 250px;
     background-color: #161415;
+    padding-bottom: 50px;
 }
 
 .footer__title {
@@ -805,6 +806,11 @@ iframe {
     text-transform: uppercase;
 
     color: #FAFAFA;
+}
+
+.flex_wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer_form {
@@ -836,8 +842,7 @@ iframe {
 input[type='submit'] {
     display: flex;
     justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 25px;
     background-color: #FF007A;
 }
 
@@ -848,6 +853,10 @@ input[type='submit'] {
     font-weight: 400;
     font-size: 14px;
     color: #595959;
+}
+
+.policy_mobile {
+    display: none;
 }
 
 .link_policy {
@@ -898,6 +907,10 @@ input[type='submit'] {
     gap: 12px;
     list-style: none;
     padding: 0;
+}
+
+.social_mobile {
+    display: none;
 }
 
 .footer_copy {
